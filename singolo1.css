@@ -236,6 +236,9 @@ nav {
 .services__img {
   width: 80px;
   vertical-align: top;
+}
+
+.services__img img {
   width: 59px;
   height: 59px;
 }
