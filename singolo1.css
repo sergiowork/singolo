@@ -73,7 +73,6 @@ nav {
   margin-right: 28px; 
   font-size: 12px;
   line-height: 34px;
-  vertical-align: middle;
   letter-spacing: -0.039em;
 }
 
@@ -163,12 +162,16 @@ nav {
   position: absolute;
   top: 53px;
   left: 113px;
+  width: 240px;
+  height: 483px;
 }
 
 .slider__phoneh {
   position: absolute;
   right: 111px;
   bottom: 171px;
+  width: 484px;
+  height: 240px;
 }
 
 
@@ -233,6 +236,8 @@ nav {
 .services__img {
   width: 80px;
   vertical-align: top;
+  width: 59px;
+  height: 59px;
 }
 
 .services__text {
@@ -255,11 +260,3 @@ nav {
   text-align: justify;
 }
 
-
-/*
-@supports (-ms-ime-align:auto) {
-  nav {
-    margin-left: 450px
-  }
-} 
-*/
