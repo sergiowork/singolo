@@ -63,7 +63,11 @@
   border-bottom: 6px solid #323746;
 }
 .portfolio__menu{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
 }
 .portfolio__menu li{
@@ -99,7 +103,11 @@
   padding-top: 65px;
 }
 .aboutus {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-right: 40px;
   margin-top: 43px;
@@ -123,7 +131,11 @@
 }
 
 .links{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
   margin-top: 27px;
 }
