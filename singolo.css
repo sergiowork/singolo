@@ -375,9 +375,9 @@ nav {
   margin-right: 8px;
 }
 .links a:hover{
-  background-color: #bfc4d7;
+  background-color: #f06c64;
   border-radius: 50%;
-  transition: .3s;
+  transition: background-color .30s ease-in;
 }
 
 
