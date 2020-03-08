@@ -402,6 +402,7 @@ nav {
   color: #f0d8d9;
   letter-spacing: 0px;
   line-height: 30px;
+  padding-right: 10px;
 }
 .contact-form .container > p::first-line {
   letter-spacing: 0.15px;
