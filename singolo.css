@@ -385,8 +385,9 @@ nav {
 .contact-form {
   background-color: #f06c64;
   border-bottom: 6px solid #ea676b;
-  padding-top: 62px;
+  padding-top: 58px;
   padding-bottom: 21px;
+  padding-left: 76px;
 }
 .contact-form .container > h2 {
   font-size: 30px;
