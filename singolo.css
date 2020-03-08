@@ -433,7 +433,7 @@ nav {
   font-family: "Lato-Regular", "Arial", sans-serif;
   line-height: 22px;
   color: #f0d8d9;
-  width: 589px;
+  width: 620px;
   margin-bottom: 16px;
   padding: 8px 15px;
   background-color: #d6564f;
@@ -446,8 +446,8 @@ nav {
   color: #f0d8d9;
   line-height: 22px;
   min-width: 589px;
-  max-width: 589px;
-  min-height: 186px;
+  width: 620px;
+  height: 200px;
   padding: 8px 15px;
   background-color: #d6564f;
   border-radius: 5px;
