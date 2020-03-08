@@ -265,16 +265,18 @@ nav {
 
 
 
+.services__text__main_portfolio {
+	margin-bottom: 11px;
+}
 
-
-.services__text__main h2 {
+.services__text__main_portfolio h2 {
   margin-bottom: 18px;
   font-size: 30px;
   line-height: 34px;
   font-family: "Lato-Black", "Arial", sans-serif;
   color: #666d89;
 }
-.services__text__main p {
+.services__text__main_portfolio p {
   font-size: 18px;
   line-height: 30px;
   font-family: "Lato-Light", "Arial", sans-serif;
