@@ -479,6 +479,7 @@ nav {
 .form-wrap .contact-info {
   display: flex;
   flex-direction: column;
+  padding-right: 75px;
 }
 .form-wrap .contact-info > h3 {
   font-size: 18px;
