@@ -548,6 +548,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 45px;
 }
 .footer .footer-info > span {
   font-size: 12px;
