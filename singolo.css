@@ -556,6 +556,7 @@ nav {
 }
 .footer .footer-info > .footer-socials {
   display: flex;
+  margin-right: 40px;
 }
 .footer .footer-info > .footer-socials > .footer-socials__item {
   display: flex;
