@@ -1,2 +1,2 @@
 # singolo
-http://bestdevapp2.000webhostapp.com/sites/singolo-main/singolo.html
+https://sergiowork.github.io/singolo/
