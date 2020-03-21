@@ -119,3 +119,13 @@ var inputDescription = document.getElementById("description").value;
        horizontalblackScreen.classList.toggle('visible-screen');
        });
 //SLIDER
+
+//MENU
+    const $nav = document.querySelector('.navigation');
+    $nav.addEventListener('click', event => {
+        if( event.target.classList.contains('header__menu_link') ) {
+            $nav.querySelectorAll('.header__menu__item .header__menu_link').forEach(item => item.classList.remove('header__menu_active'));
+            event.target.classList.add('header__menu_active');
+        }
+    });
+//MENU
