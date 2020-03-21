@@ -705,3 +705,43 @@ nav {
 }
 /* End Slider*/
 
+/*Screen phone*/
+  .vertical-screen {
+    position: absolute;
+    top: 53px;
+    left: -28px;
+    width: 217px;
+    height: 458px;
+    cursor: pointer;
+  }
+
+  .horizontal-screen {
+    position: absolute;
+    top: 174px;
+    right: -4px;
+    width:458px;
+    height: 217px;
+    cursor: pointer; 
+  }
+
+  .iphonev-black {
+    display: none;
+    position: absolute;
+    top: 113px;
+    left: -19px;
+}
+
+  .iphoneh-black {
+    display: none;
+    position: absolute;
+    top: 183px;
+    right: 57px;
+}
+.visible-screen {
+    display: block;
+}
+.visible-screen-none {
+    display: none;
+}
+/*END Screen phone*/
+
