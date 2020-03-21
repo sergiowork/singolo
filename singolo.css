@@ -644,3 +644,64 @@ nav {
   background: #fff;
 }
 /* End Modal window*/
+
+/* Slider*/
+.items-container {
+    position: absolute;
+    overflow: hidden;
+    /*top: -13px;*/
+}
+.item {
+    display: none;
+    position: relative;
+    animation: .7s linear;
+    margin: 0 auto; 
+}
+.activated, .next {
+    display: block;
+    margin: 0 50px;
+}
+
+.next {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+.to-right {
+   animation-name: right;
+    animation-direction: reverse;
+}
+  
+.from-left {
+    animation-name: left;
+    animation-direction: reverse;
+}
+
+.to-left {
+    animation-name: left;
+}
+  
+.from-right {
+    animation-name: right;
+}
+  
+@keyframes left {
+    from {
+      left: 0;
+    }
+    to {
+      left: -100%;
+    }
+}
+  
+@keyframes right {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0;
+    }
+}
+/* End Slider*/
+
