@@ -745,3 +745,12 @@ nav {
 }
 /*END Screen phone*/
 
+/*Menu*/
+.header__menu__item .header__menu_link {
+    color: #fff;
+    text-decoration: none;
+}
+.header__menu__item .header__menu_active {
+    color: #f06c64;
+}
+/*END Menu*/
