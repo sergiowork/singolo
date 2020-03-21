@@ -199,15 +199,26 @@
           Fusce dapibus, tellus ac cursus commodo,
           tortor mauris condimentum nibh.</p>
         <div class="form-wrap">
-          <form class="form-contact" name="form" action="#" autocomplete="on" method="POST">
+          
+         <form class="form-contact" name="form" action="#" autocomplete="on" method="POST">
             <fieldset>
-              <input type="text" placeholder="Name (Required)" name="name" required>
-              <input type="email" placeholder="Email (Required)" name="email" required>
-              <input type="text" placeholder="Subject" name="subject">
-              <textarea placeholder="Describe your project in detail..." name="description"></textarea>
+              <input type="text" placeholder="Name (Required)" name="name" id="name" required>
+              <input type="email" placeholder="Email (Required)" name="email" id="email" required>
+              <input type="text" placeholder="Subject" name="subject" id="subject">
+              <textarea placeholder="Describe your project in detail..." name="description" id="description"></textarea>
             </fieldset>
-            <button type="submit">Submit</button>
+            <button type="submit" onclick="openModal();" id="btn">Submit</button>
           </form>
+
+  <div class="overlay is-hidden" id="overlay">
+    <div class="modal-content">
+      <span class="button-close" onclick="closeModal();">OK</span>
+      <h3>The letter was sent </h3></br></br>
+      <p><span id="subject2"></span></p>
+      <p><span id="description2"></span></p>
+    </div>
+  </div>
+          
           <div class="contact-info">
             <h3>Contact Information</h3>
             <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viver- ra nibh.
