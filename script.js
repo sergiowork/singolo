@@ -129,3 +129,29 @@ var inputDescription = document.getElementById("description").value;
         }
     });
 //MENU
+
+//PORTFOLIO
+	const $portfolioNav = document.querySelector('.portfolio__menu');
+    const $portfolioItem = document.querySelectorAll('.portfolio__item');
+    $portfolioNav.addEventListener('click', event => {
+        if( event.target.classList.contains('portfolio__nav') ) {
+            $portfolioNav.querySelectorAll('.portfolio__nav').forEach(item => item.classList.remove('portfolio__nav-active'));
+            event.target.classList.add('portfolio__nav-active');
+            const portfolioNavData = event.target.dataset.portfolioNav;
+            if( portfolioNavData === 'all' ) {
+                $portfolioItem.forEach(item => item.removeAttribute('style'));
+            } else {
+                $portfolioItem.forEach(item => item.removeAttribute('style'));
+                document.querySelectorAll(`.portfolio__item[data-portfolio-pic = ${portfolioNavData}]`).forEach((item, index) => item.style.order = `-${index}`)
+            }
+        }
+    });
+
+    const $portfolioContent = document.querySelector('.portfolio__projects');
+    $portfolioContent.addEventListener('click', event => {
+       if(event.target.classList.contains('portfolio__img')) {
+           $portfolioItem.forEach(item => item.classList.remove('portfolio__item-active'));
+           event.target.parentNode.classList.toggle('portfolio__item-active')
+       }
+    });
+//PORTFOLIO
