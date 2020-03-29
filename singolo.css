@@ -959,6 +959,14 @@ p{
   z-index: 99;
   position: absolute;
   background-color: #2d303a;
+  height: 610px;
+  padding: 100px 40px 0px 60px;
+  top: 55px;
+  left: -329px;
+  width: 180px;
+}
+.header__menu__item:not(:first-child)::before {
+  content: "";
 }
 .slider__phoneh {
     position: absolute;
