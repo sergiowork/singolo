@@ -447,13 +447,11 @@ nav {
   font-family: "Lato-Regular", "Arial", sans-serif;
   color: #f0d8d9;
   line-height: 22px;
-  min-width: 589px;
   width: 620px;
   height: 200px;
   padding: 8px 15px;
   background-color: #d6564f;
   border-radius: 5px;
-  resize: none;
   border: none;
 }
 .form-wrap .form-contact > fieldset {
